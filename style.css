@@ -78,3 +78,22 @@ main:hover .tooltip:before {
     color: #fff;
     filter: grayscale(1)
 }
+
+figure {
+    display: flex;
+    align-items: center;
+  
+    figcaption a {
+      color: #525252;
+      text-decoration: none;
+      margin-left: .5rem;
+      font-size: 1.2rem;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+      &:active {
+        font-size: 1rem;
+      }
+    }
+  }
